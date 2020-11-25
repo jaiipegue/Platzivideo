@@ -6,4 +6,42 @@
 
 html{
   font-size: 62.5%;
+  background: #200122;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
+
+header{
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+.section-logo {
+  width: auto;
+  height: auto;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.section-logo img{
+  width: 200px;
+  height: 80px;
+}
+
+.section-nav {
+  width: auto;
+  height: auto;
+  padding-left: 10px;
+  padding-top: 30px;
+  
+}
+
+.section-nav a {
+  text-decoration: none;
+  color: white;
+  padding-right: 20px;
+  font-size: 2rem;
+  padding-top: ;
+}
+
